@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloworld.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/eatnplay" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mail"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/name"
+                android:textColor="@android:color/black"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mobile"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/mobile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/mobile"
+                android:textColor="@android:color/black"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="map"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/maps" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/address"
+                android:textColor="@android:color/black"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="site"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/world" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/link"
+                android:textColor="@android:color/black"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
